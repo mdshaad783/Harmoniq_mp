@@ -1,0 +1,44 @@
+.flex{
+    display: flex;
+    gap: 5px;
+}
+.filter{
+    filter: invert(1);
+}
+li{
+    list-style: none;
+}
+
+/* Scrollbar Styling for Modern Browsers */
+body::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Dark gray for the track background */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: #444; /* Slightly lighter gray for the scrollbar thumb */
+    border-radius: 6px; /* Rounded edges for a smoother look */
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background: #666; /* Lighter gray when hovering for interactivity */
+  }
+  
+  /* Firefox Styling */
+  body {
+    scrollbar-width: thin; /* Makes the scrollbar thinner */
+    scrollbar-color: #444 #1e1e1e; /* Thumb color, Track color */
+  }
+  
+  /* Optional: Scrollbar for specific containers */
+  .container::-webkit-scrollbar {
+    width: 8px; /* Customize specific container scrollbar */
+  }
+  
+  .container::-webkit-scrollbar-thumb {
+    background: #555; /* Slightly different shade for container */
+  }
+  

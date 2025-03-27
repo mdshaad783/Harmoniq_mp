@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="159" height="32">
+  <!-- Shadow effect -->
+  <filter id="shadowText" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="2" dy="2" stdDeviation="1" flood-color="black" />
+  </filter>
+  
+  <!-- Text with visible white border -->
+  <text x="10" y="70" font-family="'Arial Black', sans-serif" 
+        font-size="70" font-weight="bold" stroke="white" stroke-width="5" fill="black" filter="url(#shadowText)">
+    HARMONIQ
+  </text>
+</svg>

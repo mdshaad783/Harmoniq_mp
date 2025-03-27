@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmoniq - Web Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="icon" type="image/svg+xml" href="svg/fontawesome.svg">
+
+    
+</head>
+<body>
+    <div class="container">
+        <div class="navbar flex">
+            <div class="logo">
+                <img src="svg/logo.svg" class="comlogo" alt="">
+                <img src="svg/fontawesome.svg" class="mobilelogo" alt="">
+            </div>
+            <div class="navbarmiddle flex">
+                <button class="iconbtn"><img src="svg/home.svg" id="homeicon" alt="" class="filter"></button>
+                <button class="iconbtn"><img src="svg/search.svg" id="searchicon" alt="" class="filter"></button>
+                <form action="/">
+                    <input type="text" id="searchinput" placeholder="What do you want to play?">
+                </form>
+            </div>
+            <div class="authbtns">
+                <button>Sign up</button>
+                <button id="login">Log in</button>
+            </div>
+        </div>
+        <div class="maincontent flex">
+            <div class="leftbox">
+                <div class="librarySec flex">
+                    <ul><li class="li"><img src="svg/lib.svg" alt="">Your Library</li></ul>
+                    <img src="svg/plus.svg" class="plusicon filter" alt="">
+                </div>
+                <div class="songList">
+                    <ul>
+                        <!-- <li>
+                            <img src="music.svg" class="filter" alt="">
+                            <div class="songinfo">
+                                <div class="songName">Song Name</div>
+                                <div class="songArtist">Song Artist</div>
+                            </div>
+                            <div class="playbutton">
+                                <span>Play Now</span>
+                                <img src="songplay.svg" class="filter" alt="">
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+                <!-- <div class="footer">
+                    <p>Spotify</p>
+                    <p>Privacy Policy</p>
+                    <p>Cookies</p>
+                    <p>Accessiblity</p>
+                </div>
+                <div class="sign">
+                    @designed by <span id="shaad">mdshaad</span>
+                </div> -->
+            </div>
+
+            <div class="rightbox">
+                <div class="playlistHeading">
+                    <img src="svg/hamburger.svg" class="filter hamburger" alt="">
+                    <h1>Spotify Playlist & Albums</h1>
+                </div>
+                <div class="songcontent flex">
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+
+
+
+                <div class="songdetail filter flex">
+                    <div class="currSongInfo"></div>
+                    <div class="playbar">
+                        <img src="svg/previoussong.svg" id="previousSong" alt="">
+                        <img src="svg/songplay.svg" id="play" alt="">
+                        <img src="svg/nextsong.svg" id="nextSong" alt="">
+                    </div>
+                    <div class="voulme">
+                        <div class="range filter">
+                            <img src="svg/mute.svg" alt="" class="filter">
+                            <input type="range" name="volume" id="#volslider" min="0" max="100" step="1" value="100">
+                            <img src="svg/volume.svg" alt="" class="filter">
+                        </div>
+                    </div>
+                    <div class="songtime"></div>
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
